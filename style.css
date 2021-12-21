@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: times;
+}
+
+body {
+    background-image: url(background.jpg);
+    background-position: center;   
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+}
+
+h1 {
+    letter-spacing: -1pt;
+}
+
+form {
+    margin: 50px auto;
+    padding: 20px;
+    max-width: 500px;
+    height: 380px;
+    background: #EDEDED;
+}
+
+input, button, textarea {
+    text-align: left;
+    display: block;
+    
+}
+
+.forma button {
+    width: 120px;
+    border: none;
+    background: #323232;
+    color: white;
+    text-align: center;
+    line-height: 25px;
+    margin-top: 20px;
+    border-bottom: solid black 1px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #777D7D;
+    transition: 0.5s;
+}
+
+button.thanks {
+    object-position: center;
+    width: 200px;
+    border: none;
+    background: #323232;
+    color: white;
+    text-align: center;
+    line-height: 30px;
+    margin: 25% auto;
+    border-bottom: solid black 1px;
+    cursor: pointer;
+}
+
+button.thanks:hover {
+    background: #777D7D;
+    transition: 0.5s;
+}
+
+div.forma {
+    margin: 15px 22.5px;
+    padding: 5px;
+}
+
+label {
+    font-size: 14px;
+    display: block;
+    text-align: left;
+    margin-top: 10px;
+}
+
+input, textarea {
+    font-size: 13px;
+    line-height: 20px;
+    
+    width: 100%;
+    border: none;
+    border-bottom: solid black 1px;
+    background: #EDEDED;
+    padding: 3px 0;
+}
+
+textarea {
+    height: 40px;
+}
+
+::placeholder {
+  color: #727272;
+}
